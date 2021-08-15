@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".E_Kupcy_z_osaki"
+    android:background="@drawable/gradient" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/museomoderno_black"
+                android:text="Kupcy z osaki"
+                android:textColor="@color/whiteTxt"
+                android:textSize="35dp"
+                android:layout_marginTop="20dp"/>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="221dp"
+                android:layout_height="186dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="95dp"
+                android:layout_marginTop="91dp"
+                app:srcCompat="@drawable/kupcy_z_osaki"
+                tools:layout_editor_absoluteX="5dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+            <Button
+                android:id="@+id/ulubione3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="160dp"
+                android:layout_marginTop="213dp"
+                android:background="@drawable/button_circle"
+                android:drawableTop="@drawable/favorite"
+                android:onClick="onClick"
+                android:padding="10dp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/cechy"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="300dp"
+                android:fontFamily="@font/museomoderno_regular"
+                android:text="Liczba graczy:    3-4 osób \nWiek gracza:    8+ \nCzas gry:   45-60 min \nWydawca:    Galaktyka \nCena:   ok 120zł \n"
+                android:textColor="@color/whiteTxt"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Losowosc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cechy"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/museomoderno_regular"
+                android:text="Losowość"
+                android:textColor="@color/whiteTxt"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Interakcja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Losowosc"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/museomoderno_regular"
+                android:text="Interakcja"
+                android:textColor="@color/whiteTxt"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Zlozonosc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Interakcja"
+                android:layout_marginBottom="19dp"
+                android:layout_marginStart="30dp"
+
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/museomoderno_regular"
+                android:text="Złożoność"
+                android:textColor="@color/whiteTxt"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/losowosc_pawn"
+                android:layout_width="157dp"
+                android:layout_height="66dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="557dp"
+                android:layout_toEndOf="@+id/Interakcja"
+                app:srcCompat="@drawable/trzy" />
+
+            <ImageView
+                android:id="@+id/interakcja_pawn"
+                android:layout_width="157dp"
+                android:layout_height="66dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="622dp"
+                android:layout_toEndOf="@+id/Zlozonosc"
+                app:srcCompat="@drawable/dwa" />
+
+            <ImageView
+                android:id="@+id/zlozonosc_pawn"
+                android:layout_width="157dp"
+                android:layout_height="66dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="491dp"
+                android:layout_toEndOf="@+id/Losowosc"
+                app:srcCompat="@drawable/trzy" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

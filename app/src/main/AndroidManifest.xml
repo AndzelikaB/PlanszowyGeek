@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.geekplanszowy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/apklogo_przezroczyste"
+        android:label="Planszowy Geek"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:fontFamily="@font/museomoderno_black"
+        android:theme="@style/Theme.GeekPlanszowy">
+        <activity android:name=".EventFragment2"></activity>
+        <activity android:name=".ChampionsCup" />
+        <activity android:name=".ChempionshipMars" />
+        <activity android:name=".Planszowkiwspodku" />
+        <activity android:name=".Pionek" />
+        <activity android:name=".E_Carcassonne" />
+        <activity android:name=".E_Kupcy_z_osaki" />
+        <activity android:name=".E_Takenoko" />
+        <activity android:name=".E_7Cudow_swiata" />
+        <activity android:name=".E_splendor" />
+        <activity android:name=".Strategiczne" />
+        <activity android:name=".Wojenne" />
+        <activity android:name=".Rodzinne" />
+        <activity android:name=".Kooperacyjne" />
+        <activity android:name=".Ekonomiczne" />
+        <activity android:name=".Imprezowe" />
+        <activity android:name=".GryDlaDzieci" />
+        <activity android:name=".Kalendarz" />
+        <activity android:name=".KiermaszGier" />
+        <activity android:name=".Wojnaopierscien_a" />
+        <activity android:name=".Cluedo" />
+        <activity android:name=".Catan" />
+        <activity android:name=".Hybrydy" />
+        <activity android:name=".Ameritrashe" />
+        <activity android:name=".Eurogry" />
+        <activity android:name=".ListdataActivity" />
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

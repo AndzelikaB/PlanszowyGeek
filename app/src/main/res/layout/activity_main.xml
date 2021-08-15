@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fala2"
+    tools:context=".MainActivity">
+
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/museomoderno_black"
+            android:text="Rejestracja"
+            android:textColor="@color/whiteTxt"
+            android:textSize="50dp" />
+
+        <EditText
+            android:id="@+id/repassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/primary"
+            android:drawableRight="@drawable/lock"
+            android:ems="10"
+            android:fontFamily="@font/museomoderno_light"
+            android:hint="Powtórz hasło"
+            android:inputType="textPassword"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/primary"
+            android:textSize="24dp"
+            />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="200dp"
+            android:hint="Login"
+            android:textSize="24dp"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/primary"
+            android:backgroundTint="@color/primary"
+            android:drawableRight="@drawable/ic_person"
+            android:fontFamily="@font/museomoderno_light"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@drawable/lock"
+            android:ems="10"
+            android:hint="Hasło"
+            android:inputType="textPassword"
+            android:textColorHint="@color/primary"
+            android:textSize="24dp"
+            android:textColor="@color/primary"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/museomoderno_light"
+            />
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/repassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/museomoderno_light"
+            android:background="@drawable/button_background"
+            android:text="Zarejestruj"
+            android:textColor="@color/text_btn"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:textCursorDrawable="@drawable/favorite"/>
+
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnsignup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/museomoderno_light"
+            android:text="@string/underline_login"
+            android:textColor="@color/primary"
+            android:textSize="17dp" />
+
+
+
+
+
+
+</RelativeLayout>

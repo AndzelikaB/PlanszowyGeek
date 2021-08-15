@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Wojenne">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/museomoderno_black"
+        android:text="Gry Wojenne"
+        android:textColor="@color/whiteTxt"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="1dp"
+        android:text="Gry w stylu europejskim na pierwszym miejscu stawiają mechanikę, często schematyczną i powtarzalną. Tło fabularne jest tylko dodatkiem lub pretekstem do całej mechaniki."
+        android:textColor="@color/whiteTxt"
+        android:textSize="20dp" />
+
+
+    <ListView
+        android:id="@+id/listview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="20dp"
+        android:cacheColorHint="@color/whiteTxt"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="35.0sp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:textColor="@color/whiteTxt"
+        android:fontFamily="@font/museomoderno_black"
+        />
+
+
+</RelativeLayout>

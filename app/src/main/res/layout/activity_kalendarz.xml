@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kalendarz"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/dadajwydarzenie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/museomoderno_black"
+        android:text="Dodaj wydarzenie"
+        android:textColor="@color/whiteTxt"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:backgroundTint="@color/whiteTxt"
+        android:ems="10"
+        android:fontFamily="@font/museomoderno_light"
+        android:hint="Tytuł wydarzenia"
+        android:textColor="@color/whiteTxt"
+        android:inputType="text"
+        android:paddingLeft="30dp"
+        android:textColorHint="@color/whiteTxt"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="332dp"
+        android:ems="10"
+        android:textSize="24dp"
+        android:fontFamily="@font/museomoderno_light"
+        android:textColorHint="@color/whiteTxt"
+        android:backgroundTint="@color/whiteTxt"
+        android:hint="Lokalizacja"
+        android:paddingLeft="30dp"
+        android:inputType="text"
+        android:textColor="@color/whiteTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="@color/whiteTxt"
+        android:ems="10"
+        android:paddingLeft="30dp"
+        android:fontFamily="@font/museomoderno_light"
+        android:hint="Opis "
+        android:inputType="text"
+        android:textColor="@color/whiteTxt"
+        android:textColorHint="@color/whiteTxt"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="432dp"
+        android:text="Dodaj"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/museomoderno_light"
+        android:textColor="@color/whiteTxt"
+        />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KiermaszGier"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/museomoderno_black"
+        android:gravity="center"
+        android:lineSpacingMultiplier="0.7"
+        android:text="Wiosenny kiermasz"
+        android:textColor="@color/whiteTxt"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="373dp"
+        android:layout_height="201dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kiermasz_gier"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="151dp"
+        android:layout_above="@+id/launch"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:text="Kiermasz gier planszowych jest wydarzeniem odbywającym się dwa razy do roku. Podczas trwania wydarzenia jego uczestnicy mają możliwość dokonania zakupu gier używanych po znacznie niższej cenie."
+        android:textColor="@color/whiteTxt"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/lokal"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_above="@+id/launch"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="182dp"
+        android:text="Lokalizacja: Ludiversum, \nul. Św Jana 20 Katowice"
+        android:textColor="@color/whiteTxt"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/launch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/kalendarz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_background"
+        android:drawableRight="@drawable/ic_baseline_location"
+        android:fontFamily="@font/museomoderno_regular"
+        android:onClick="onClick"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Sprawdź na mapie"
+        android:textColor="@color/text_btn"
+        android:textColorHint="@color/whiteTxt"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/kalendarz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/museomoderno_regular"
+        android:onClick="Kalendarz"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Dodaj do kalendarza "
+        android:textColor="@color/text_btn"
+        android:textSize="16dp"
+        android:drawableRight="@drawable/ic_baseline_calendar"
+        />
+
+
+
+
+
+</RelativeLayout>
